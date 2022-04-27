@@ -1,0 +1,45 @@
+ul {
+    display: flex;
+    list-style: none;
+    list-style-type: none;
+    gap: 25px;
+}
+
+body {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+a:hover {
+    color: #f9faf8;
+}
+
+.rh {
+    color: #E5E7EB;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 0;
+    color: #f9faf8
+}
+
+.left-links {
+    font-size: 24px;
+}
+
+.right-links {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
