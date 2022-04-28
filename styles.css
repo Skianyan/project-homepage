@@ -1,3 +1,7 @@
+/*GENERAL*/
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 ul {
     display: flex;
     list-style: none;
@@ -9,6 +13,7 @@ body {
     margin: auto;
 }
 
+/*HEADER STUFF*/
 a {
     text-decoration: none;
     color: #f9faf8;
@@ -28,7 +33,6 @@ a:hover {
     align-items: center;
     justify-content: space-around;
     background-color: #1f2937;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
     margin: 0;
     color: #f9faf8
@@ -42,4 +46,154 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
 }
+/*HERO TEXT STUFF*/
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
 
+.left-text {
+    margin-left: 150px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.left-text li:first-child {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.left-text li:nth-child(2) {
+    color: #E5E7EB;
+}
+
+.left-text li:nth-child(3) {
+    color: #f9faf8;
+    font-weight: bold;
+    background-color: #3882F6;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.left-text li:nth-child(3):hover{
+    background-color:cornflowerblue;
+}
+
+.right-text {
+    height: 200px;
+    width: 300px;
+    margin-right: 150px;
+    text-align: center;
+    background-color: gray;
+    align-items: center;
+}
+/*CENTER INFORMATION STUFF*/
+.frame {
+    width: 160px;
+    height: 160px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: #3882F6;
+}
+
+.centitle {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 50px 0;
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px
+}
+
+.cencontent{
+    display: flex;
+    justify-content:center;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.centext {
+    margin-top: 10px;
+    max-width: 165px;
+    text-align: center;
+}
+
+/*QUOTE STUFF*/
+.insptext{
+    flex: 1;
+    display: flex;
+    background-color: #E5E7EB;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    flex-direction: column;
+    text-align: end;
+    max-width: 1200px;
+}
+
+.quote li:nth-child(2){
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bolder;
+}
+/*CALL-TO-ACTION STUFF*/
+.callto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 150px 100px 150px; 
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 15px 0 15px 0;
+}
+
+.calleft{
+    flex-direction: column;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+.calleft li:nth-child(2){
+    font-weight: normal;
+    font-size: 18px;
+}
+.calright li{
+    color: #f9faf8;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+}
+.calright li:hover{
+    background-color:cornflowerblue;
+}
+/*FOOTER STUFF*/
+.footer{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+}
+.footer div{
+    color: #f9faf8;
+}
